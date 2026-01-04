@@ -1,0 +1,11 @@
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>
+        com.inventory.productservice.servlet.LogoutServlet
+    </servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+</servlet-mapping>
